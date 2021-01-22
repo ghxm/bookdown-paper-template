@@ -15,7 +15,7 @@ output:
     toc: no
     keep_tex: no
     includes:
-      in_header: text/preamble.tex
+      in_header: text/res/preamble.tex
 site: bookdown::bookdown_site
 geometry:
   - left=2.5cm
@@ -27,9 +27,10 @@ numbersections: false
 papersize: a4
 fontsize: 12pt
 linestretch: 1.5
-# bibliography: path/to/bib-file
+bibliography: text/res/library.bib
 biblio-style: apalike
 link-citations: yes
+nocite: | # Place any citations that should appear in the bilbiography but are not cited in the text here in a list format
 abstract: |
   Place your abstract here.
 ---
