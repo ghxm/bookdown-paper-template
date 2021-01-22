@@ -40,6 +40,8 @@ vignettes/*.pdf
 # Bookdown
 /_book
 _main.*
+reference-keys.txt
+
 
 # R Environment Variables
 .Renviron
